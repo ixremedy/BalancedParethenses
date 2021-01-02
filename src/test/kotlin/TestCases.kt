@@ -42,4 +42,11 @@ class TestCases
         assertFalse( ParenthesesParser.checkBalanced( "())****" ))
     }
 
+
+    @Test
+    public fun testCase7()
+    {
+        assertTrue( ParenthesesParser.checkBalanced( "** () *)" ))
+    }
+
 }
