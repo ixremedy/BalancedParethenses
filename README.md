@@ -1,4 +1,5 @@
 # BalancedParethenses
-Make sure that the opening parentheses are balanced either with the closing paretheses or with asterisk signs *
 
-The problem description can be found in the Wiki section
+You're given a string consisting solely of (, ), and *. * can represent either a (, ), or an empty string. Determine whether the parentheses are balanced.
+
+For example, (()* and (*) are balanced. )*( is not balanced.
